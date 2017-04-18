@@ -1,9 +1,9 @@
 {
 	"name": "@iflix/scrollwatch",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"author": "Evan Dull <evandull@gmail.com>, iflix",
 	"description": "Easily add lazy loading, infinite scrolling, or any other dynamic interaction based on scroll position (with no dependencies).",
-	"main": "./dist/ScrollWatch-1.2.1.min.js",
+	"main": "./dist/ScrollWatch-1.2.2.min.js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/iflix-letsplay/ScrollWatch.git"
@@ -16,6 +16,9 @@
 		"scroll watch",
 		"scroll"
 	],
+	"scripts": {
+		"start": "gulp --"
+	},
 	"devDependencies": {
 		"del": "^1.1.1",
 		"gulp": "^3.8.11",
